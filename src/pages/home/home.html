@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card *ngFor="let color of colors " [ngStyle]="{'background':'linear-gradient(315deg, #eec0c6 0%, '+ color.color +' 84%)'}">
+ <ion-card-header style="color:#FDFEFE;">
+     <b> #eec0c6 and
+      {{color.color}}</b>
+ </ion-card-header>
+  </ion-card>
+</ion-content>
+
+
+
+
