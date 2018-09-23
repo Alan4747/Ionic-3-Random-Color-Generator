@@ -1,1 +1,1 @@
-# Ionic-3-Random-Color-Generator
+# Ionic 3 Random Color Generator
